@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
 # config/routes.rb
-  get '/index', to: redirect('/Lab3UI-HTML/index.html')
+  root 'sessions#login'
+  get '/home', to: 'pages#index', as: 'home' 
+  get '/pages', to: 'pages#index'
+  
+  get '/easy', to: redirect('/ayeshahtmls/easy.html')
+  get '/medium', to: redirect('/ayeshahtmls/medium.html')
+  get '/hard', to: redirect('/ayeshahtmls/hard.html')
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
@@ -9,4 +15,13 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  resources :steps, only: [:new, :create]
+  resources :water_intakes, only: [:new, :create]
+  resources :calories, only: [:new, :create]
+  get '/calories/new', to: 'calories#new', as: 'new_calorie'
+  resources :users, only: [:new, :create, :edit, :update, :show, :destroy]
+  get '/login', to: 'sessions#login'
+  post '/login', to: 'sessions#create'
+  post '/logout', to: 'sessions#destroy'
+  get '/logout', to: 'sessions#destroy'
 end

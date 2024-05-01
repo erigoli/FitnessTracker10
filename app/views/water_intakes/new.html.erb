@@ -1,0 +1,6 @@
+<h1>Log Water Intake</h1>
+<%= form_with(model: @water_intake, url: water_intakes_path, local: true) do |form| %>
+  <%= form.label :gallons, "Enter Water Consumed (in gallons):" %>
+  <%= form.number_field :gallons, step: 0.01 %>
+  <%= form.submit "Add Water" %>
+<% end %>

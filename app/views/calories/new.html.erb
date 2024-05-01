@@ -1,0 +1,6 @@
+<h1>Add Calorie Intake</h1>
+<%= form_with(model: @calorie, url: calories_path, local: true) do |form| %>
+  <%= form.label :amount, "Enter Calories Consumed:" %>
+  <%= form.number_field :amount %>
+  <%= form.submit "Add Calories" %>
+<% end %>

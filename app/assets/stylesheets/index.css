@@ -1,0 +1,1193 @@
+.fitness-tracker-dashboard-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.fitness-tracker-dashboard-fitness-tracker-dashboard {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(249, 249, 249, 1);
+}
+.fitness-tracker-dashboard-text {
+  top: 41px;
+  left: 100px;
+  color: rgba(155, 159, 170, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-text02 {
+  top: 68px;
+  left: 100px;
+  color: rgba(25, 28, 50, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-rectangle5 {
+  top: 0px;
+  left: 1065px;
+  width: 375px;
+  height: 1000px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-running {
+  top: 248px;
+  left: 1093px;
+  width: 305px;
+  height: 68px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.fitness-tracker-dashboard-rectangle {
+  top: 0px;
+  left: 0px;
+  width: 305px;
+  height: 68px;
+  position: absolute;
+  border-radius: 10px;
+}
+.fitness-tracker-dashboard-ellipse {
+  top: 12px;
+  left: 261px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-image17 {
+  top: 7px;
+  left: 14px;
+  width: 60px;
+  height: 57px;
+  position: absolute;
+  border-radius: 500px;
+}
+.fitness-tracker-dashboard-image19 {
+  top: 3px;
+  left: 166px;
+  width: 60px;
+  height: 62px;
+  position: absolute;
+  border-radius: 500px;
+}
+.fitness-tracker-dashboard-image20 {
+  top: 6px;
+  left: 236px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  border-radius: 500px;
+}
+.fitness-tracker-dashboard-text04 {
+  top: 217px;
+  left: 1095px;
+  color: rgba(28, 31, 53, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-progress {
+  top: 285px;
+  left: 97px;
+  width: 330px;
+  height: 271px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.fitness-tracker-dashboard-rectangle1 {
+  top: 0px;
+  left: 0px;
+  width: 314px;
+  height: 271px;
+  position: absolute;
+  border-radius: 10px;
+}
+.fitness-tracker-dashboard-text06 {
+  top: 25px;
+  left: 20px;
+  color: rgba(25, 28, 50, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 26px;
+}
+.fitness-tracker-dashboard-frame {
+  gap: 8px;
+  top: 24px;
+  left: 195px;
+  width: 63px;
+  display: flex;
+  padding: 8px;
+  position: absolute;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: rgba(249, 249, 249, 1);
+}
+.fitness-tracker-dashboard-text08 {
+  color: var(--dl-color-text-gray);
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.fitness-tracker-dashboard-frame1 {
+  gap: 10px;
+  top: 118px;
+  left: 46px;
+  width: 183px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.fitness-tracker-dashboard-cardio {
+  width: 183px;
+  height: 19px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.fitness-tracker-dashboard-text10 {
+  left: 21px;
+  color: var(--dl-color-text-black);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-text12 {
+  left: 143px;
+  color: var(--dl-color-text-gray);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 20px;
+}
+.fitness-tracker-dashboard-line2 {
+  width: 182px;
+  height: 1px;
+}
+.fitness-tracker-dashboard-stretching {
+  width: 183px;
+  height: 19px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.fitness-tracker-dashboard-text14 {
+  left: 21px;
+  color: var(--dl-color-text-black);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-text16 {
+  left: 142px;
+  color: var(--dl-color-text-gray);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 20px;
+}
+.fitness-tracker-dashboard-line3 {
+  width: 182px;
+  height: 1px;
+}
+.fitness-tracker-dashboard-treadmill {
+  width: 182px;
+  height: 19px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.fitness-tracker-dashboard-text18 {
+  left: 21px;
+  color: var(--dl-color-text-black);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-text20 {
+  left: 142px;
+  color: var(--dl-color-text-gray);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 20px;
+}
+.fitness-tracker-dashboard-line4 {
+  width: 182px;
+  height: 1px;
+}
+.fitness-tracker-dashboard-strength {
+  width: 182px;
+  height: 19px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.fitness-tracker-dashboard-text22 {
+  left: 21px;
+  color: var(--dl-color-text-black);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-text24 {
+  left: 142px;
+  color: var(--dl-color-text-gray);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 20px;
+}
+.fitness-tracker-dashboard-text26 {
+  top: 60px;
+  left: 96px;
+  color: rgba(25, 28, 50, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 38px;
+}
+.fitness-tracker-dashboard-text28 {
+  top: 71px;
+  left: 137px;
+  color: rgba(25, 28, 50, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+}
+.fitness-tracker-dashboard-text30 {
+  top: 336px;
+  left: 1099px;
+  color: rgba(28, 31, 53, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-text32 {
+  top: 38px;
+  left: 1155px;
+  color: rgba(25, 28, 50, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-frame66 {
+  top: 116px;
+  left: 1095px;
+  width: 305px;
+  height: 78px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.fitness-tracker-dashboard-rectangle39 {
+  top: 0px;
+  left: 0px;
+  width: 305px;
+  height: 78px;
+  position: absolute;
+  border-radius: 10px;
+}
+.fitness-tracker-dashboard-frame14 {
+  gap: 1px;
+  top: 13px;
+  left: 16px;
+  width: 80px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.fitness-tracker-dashboard-text34 {
+  color: rgba(25, 28, 50, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-text36 {
+  color: rgba(107, 110, 123, 1);
+  width: 78px;
+  height: auto;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Manrope;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-frame15 {
+  gap: 1px;
+  top: 12px;
+  left: 130px;
+  width: 59px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.fitness-tracker-dashboard-text38 {
+  color: rgba(25, 28, 50, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-text40 {
+  color: rgba(107, 110, 123, 1);
+  width: 59px;
+  height: auto;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Manrope;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-frame16 {
+  gap: 1px;
+  top: 12px;
+  left: 223px;
+  width: 66px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.fitness-tracker-dashboard-text42 {
+  color: rgba(25, 28, 50, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-text44 {
+  color: rgba(107, 110, 123, 1);
+  width: 66px;
+  height: auto;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Manrope;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-text46 {
+  top: 588px;
+  left: 97px;
+  color: rgba(25, 28, 50, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 26px;
+}
+.fitness-tracker-dashboard-steps {
+  top: 139px;
+  left: 100px;
+  width: 200px;
+  height: 99px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+.fitness-tracker-dashboard-rectangle2 {
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 170px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-text48 {
+  top: 20px;
+  left: 43px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+}
+.fitness-tracker-dashboard-text50 {
+  top: 51px;
+  left: 18px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 38px;
+}
+.fitness-tracker-dashboard-text52 {
+  top: 61px;
+  left: 112px;
+  color: rgba(249, 249, 249, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+}
+.fitness-tracker-dashboard-vector {
+  top: 23px;
+  left: 20px;
+  width: 14px;
+  height: 18px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-water {
+  top: 139px;
+  left: 327px;
+  width: 200px;
+  height: 99px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+.fitness-tracker-dashboard-rectangle6 {
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 170px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-rectangle10 {
+  top: -67.185302734375px;
+  left: 108px;
+  width: 103px;
+  height: 328px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-text54 {
+  top: 20px;
+  left: 45px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+}
+.fitness-tracker-dashboard-water1 {
+  top: 21px;
+  left: 16px;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.fitness-tracker-dashboard-group {
+  top: 1.8333333730697632px;
+  left: 4.583333492279053px;
+  width: 13.308378219604492px;
+  height: 18.333332061767578px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.fitness-tracker-dashboard-vector1 {
+  top: 0px;
+  left: 0px;
+  width: 13px;
+  height: 18px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-text56 {
+  top: 49px;
+  left: 16px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 38px;
+}
+.fitness-tracker-dashboard-text58 {
+  top: 61px;
+  left: 71px;
+  color: rgba(249, 249, 249, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+}
+.fitness-tracker-dashboard-calories {
+  top: 139px;
+  left: 554px;
+  width: 200px;
+  height: 99px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+.fitness-tracker-dashboard-rectangle61 {
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 170px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-topology1 {
+  top: -41px;
+  left: -17px;
+  width: 259px;
+  height: 252.94944763183594px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.fitness-tracker-dashboard-vector90 {
+  top: 0px;
+  left: 0px;
+  width: 259px;
+  height: 253px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-vector91 {
+  top: 102.54248046875px;
+  left: 103.6259765625px;
+  width: 55px;
+  height: 51px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-vector90-vector9191 {
+  top: 9.322021484375px;
+  left: 9.4208984375px;
+  width: 240px;
+  height: 234px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-vector90-vector91182 {
+  top: 18.64453125px;
+  left: 18.841796875px;
+  width: 222px;
+  height: 216px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-vector90-vector91273 {
+  top: 27.966552734375px;
+  left: 28.2607421875px;
+  width: 203px;
+  height: 197px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-vector90-vector91364 {
+  top: 37.287841796875px;
+  left: 37.681640625px;
+  width: 185px;
+  height: 178px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-vector90-vector91455 {
+  top: 46.60986328125px;
+  left: 47.1025390625px;
+  width: 166px;
+  height: 160px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-vector90-vector91545 {
+  top: 55.9326171875px;
+  left: 56.5234375px;
+  width: 148px;
+  height: 141px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-vector90-vector91636 {
+  top: 65.25444030761719px;
+  left: 65.94432830810547px;
+  width: 129px;
+  height: 123px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-vector90-vector91727 {
+  top: 74.57666015625px;
+  left: 75.365234375px;
+  width: 110px;
+  height: 105px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-vector90-vector91818 {
+  top: 83.8984375px;
+  left: 84.78515625px;
+  width: 92px;
+  height: 87px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-vector90-vector91909 {
+  top: 93.220458984375px;
+  left: 94.20703125px;
+  width: 73px;
+  height: 69px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-rectangle9 {
+  top: -66.060546875px;
+  left: -42px;
+  width: 44px;
+  height: 328px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-rectangle101 {
+  top: -67.185302734375px;
+  left: 108px;
+  width: 103px;
+  height: 328px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-text60 {
+  top: 20px;
+  left: 45px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+}
+.fitness-tracker-dashboard-cal {
+  top: 20px;
+  left: 17px;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.fitness-tracker-dashboard-group1 {
+  top: 1.8333333730697632px;
+  left: 4.583333492279053px;
+  width: 13.240486145019531px;
+  height: 18.333332061767578px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.fitness-tracker-dashboard-vector2 {
+  top: 0px;
+  left: 0px;
+  width: 13px;
+  height: 18px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-text62 {
+  top: 51px;
+  left: 18px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 38px;
+}
+.fitness-tracker-dashboard-text64 {
+  top: 61px;
+  left: 83px;
+  color: rgba(249, 249, 249, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+}
+.fitness-tracker-dashboard-trainer {
+  top: 625px;
+  left: 97px;
+  width: 225px;
+  height: 195px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.fitness-tracker-dashboard-rectangle3 {
+  top: 63px;
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 8px;
+}
+.fitness-tracker-dashboard-text66 {
+  top: 117px;
+  left: 30px;
+  color: rgba(10, 10, 10, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+}
+.fitness-tracker-dashboard-text68 {
+  top: 142px;
+  left: 30px;
+  color: var(--dl-color-text-gray2);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 20px;
+}
+.fitness-tracker-dashboard-image16 {
+  top: -1px;
+  left: 0px;
+  width: 225px;
+  height: 105px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-text70 {
+  top: 162px;
+  left: 30px;
+  color: var(--dl-color-text-gray2);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 20px;
+}
+.fitness-tracker-dashboard-trainer1 {
+  top: 624px;
+  left: 365px;
+  width: 225px;
+  height: 195px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.fitness-tracker-dashboard-rectangle4 {
+  top: 63px;
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 8px;
+}
+.fitness-tracker-dashboard-text72 {
+  top: 117px;
+  left: 30px;
+  color: rgba(10, 10, 10, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+}
+.fitness-tracker-dashboard-text74 {
+  top: 142px;
+  left: 30px;
+  color: var(--dl-color-text-gray2);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 20px;
+}
+.fitness-tracker-dashboard-image161 {
+  top: 0px;
+  left: 0px;
+  width: 225px;
+  height: 105px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-text76 {
+  top: 162px;
+  left: 30px;
+  color: var(--dl-color-text-gray2);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 20px;
+}
+.fitness-tracker-dashboard-trainer2 {
+  top: 625px;
+  left: 630px;
+  width: 225px;
+  height: 195px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.fitness-tracker-dashboard-rectangle5 {
+  top: 63px;
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 8px;
+}
+.fitness-tracker-dashboard-text78 {
+  top: 117px;
+  left: 30px;
+  color: rgba(10, 10, 10, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+}
+.fitness-tracker-dashboard-text80 {
+  top: 142px;
+  left: 30px;
+  color: var(--dl-color-text-gray2);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 20px;
+}
+.fitness-tracker-dashboard-image162 {
+  top: 0px;
+  left: 0px;
+  width: 225px;
+  height: 105px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-text82 {
+  top: 162px;
+  left: 30px;
+  color: var(--dl-color-text-gray2);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 20px;
+}
+.fitness-tracker-dashboard-running1 {
+  top: 374px;
+  left: 1093px;
+  width: 305px;
+  height: 68px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.fitness-tracker-dashboard-rectangle6 {
+  top: 0px;
+  left: 0px;
+  width: 253px;
+  height: 68px;
+  position: absolute;
+  border-radius: 10px;
+}
+.fitness-tracker-dashboard-text84 {
+  top: 11px;
+  left: 74px;
+  color: rgba(25, 28, 50, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-text86 {
+  top: 37px;
+  left: 74px;
+  color: rgba(157, 172, 193, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-ellipse1 {
+  top: 12px;
+  left: 12px;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-ellipse2 {
+  top: 12px;
+  left: 261px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-image11 {
+  top: 16px;
+  left: 16px;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-sleeping {
+  top: 458px;
+  left: 1093px;
+  width: 305px;
+  height: 68px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.fitness-tracker-dashboard-rectangle41 {
+  top: 0px;
+  left: 0px;
+  width: 252px;
+  height: 68px;
+  position: absolute;
+  border-radius: 10px;
+}
+.fitness-tracker-dashboard-text88 {
+  top: 11px;
+  left: 74px;
+  color: rgba(25, 28, 50, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-text90 {
+  top: 37px;
+  left: 74px;
+  color: rgba(157, 172, 193, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-ellipse27 {
+  top: 12px;
+  left: 12px;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-ellipse30 {
+  top: 12px;
+  left: 261px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-image12 {
+  top: 17px;
+  left: 18px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-weight-loss {
+  top: 542px;
+  left: 1093px;
+  width: 305px;
+  height: 68px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.fitness-tracker-dashboard-rectangle411 {
+  top: 0px;
+  left: 0px;
+  width: 253px;
+  height: 68px;
+  position: absolute;
+  border-radius: 10px;
+}
+.fitness-tracker-dashboard-text92 {
+  top: 14px;
+  left: 74px;
+  color: rgba(25, 28, 50, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-text94 {
+  top: 40px;
+  left: 74px;
+  color: rgba(157, 172, 193, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.fitness-tracker-dashboard-ellipse271 {
+  top: 12px;
+  left: 12px;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-ellipse301 {
+  top: 12px;
+  left: 258px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-image13 {
+  top: 15px;
+  left: 17px;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-image10 {
+  top: 31px;
+  left: 1097px;
+  width: 46px;
+  height: 40px;
+  position: absolute;
+}
+.fitness-tracker-dashboard-image18 {
+  top: 254px;
+  left: 1179px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  border-radius: 500px;
+}
