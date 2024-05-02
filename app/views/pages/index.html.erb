@@ -70,10 +70,8 @@
             ><span>Hi!</span></span
           ><span class="fitness-tracker-dashboard-text02"
             ><span>Welcome Back </span></span
-          ><img
-            alt="Rectangle52521"
-            src="assets/rectangle52521-kp2.svg" /><div
-            class="fitness-tracker-dashboard-running"
+          ><div
+            class="fitness-tracker-dashboard-running" 
             ><img
               alt="Rectangle1811"
               src="assets/rectangle1811-4dtx-200h.png"
@@ -104,42 +102,38 @@
                 ><span>Weekly</span></span
               ></div
             ><div class="fitness-tracker-dashboard-frame1"
-              ><div class="fitness-tracker-dashboard-cardio"
+              ><a href="/cardios/new.html">
+              <div class="fitness-tracker-dashboard-cardio"
                 ><span class="fitness-tracker-dashboard-text10"
                   ><span>Cardio</span></span
                 ><span class="fitness-tracker-dashboard-text12 Body_7"
-                  ><span>0 hrs</span></span
-                ></div
-              ><img
-                alt="Line22126"
-                src="assets/line22126-gjqq.svg"
-                class="fitness-tracker-dashboard-line2"
-              /><div class="fitness-tracker-dashboard-stretching"
+                  ><span><%= @total_cardios_consumed %> hrs</span></span
+              ></a>
+              </div
+              ><a href="/stretchings/new.html">
+              <div class="fitness-tracker-dashboard-stretching"
                 ><span class="fitness-tracker-dashboard-text14"
                   ><span>Stretching</span></span
                 ><span class="fitness-tracker-dashboard-text16 Body_7"
-                  ><span>0 hrs</span></span
-                ></div
-              ><img
-                alt="Line32127"
-                src="assets/line32127-vdh.svg"
-                class="fitness-tracker-dashboard-line3"
-              /><div class="fitness-tracker-dashboard-treadmill"
+                  ><span><%= @total_stretchings_consumed %> hrs</span></span
+              ></a>
+              </div
+              ><a href="/treadmills/new.html">
+              <div class="fitness-tracker-dashboard-treadmill"
                 ><span class="fitness-tracker-dashboard-text18"
                   ><span>Treadmill</span></span
                 ><span class="fitness-tracker-dashboard-text20 Body_7"
-                  ><span>0 hrs</span></span
-                ></div
-              ><img
-                alt="Line42127"
-                src="assets/line42127-76xq.svg"
-                class="fitness-tracker-dashboard-line4"
-              /><div class="fitness-tracker-dashboard-strength"
+                  ><span><%= @total_treadmills_consumed %> hrs</span></span
+              ></a>
+              </div
+              ><a href="/strengths/new.html">
+              <div class="fitness-tracker-dashboard-strength"
                 ><span class="fitness-tracker-dashboard-text22"
                   ><span>Strength</span></span
                 ><span class="fitness-tracker-dashboard-text24 Body_7"
-                  ><span>0 hrs</span></span
-                ></div
+                  ><span><%= @total_strengths_consumed %> hrs</span></span
+              ></a>
+              </div
               ></div
             ><span class="fitness-tracker-dashboard-text26 Heading_1"
               ><span>0</span></span
@@ -185,9 +179,7 @@
               class="fitness-tracker-dashboard-text48 Body_1"
               ><span>Steps</span></span
             ><span class="fitness-tracker-dashboard-text50 Heading_1"
-              ><span><%= @total_steps_consumed %></span></span
-            ><span class="fitness-tracker-dashboard-text52 Body_3"
-              ><span>Steps</span></span
+              ><span><%= @total_steps_consumed %> Steps</span></span
             ><img
               alt="Vector2124"
               src="assets/vector2124-o9q.svg"
@@ -213,9 +205,7 @@
                   src="assets/vector2124-lo8x.svg"
                   class="fitness-tracker-dashboard-vector1" /></div></div
             ><span class="fitness-tracker-dashboard-text56 Heading_1"
-              ><span><%= @total_water_consumed %></span></span
-            ><span class="fitness-tracker-dashboard-text58 Body_3"
-              ><span>Gallon</span></span
+              ><span><%= @total_water_consumed %> Gallon</span></span
             ></a>
             </div
           ><div class="fitness-tracker-dashboard-calories"
@@ -281,9 +271,7 @@
                    class="fitness-tracker-dashboard-vector2" /></div>
              </div
              ><span class="fitness-tracker-dashboard-text62 Heading_1"
-               ><span><%= @total_calories_consumed %></span></span
-             ><span class="fitness-tracker-dashboard-text64 Body_3"
-               ><span>Calories</span></span
+               ><span><%= @total_calories_consumed %> Calories</span></span
              ></a>
              </div
           >
@@ -325,11 +313,7 @@
             </div
           ><a href="/ayeshahtmls/hard.html">
           <div class="fitness-tracker-dashboard-trainer2"
-            ><img
-              alt="Rectangle1773"
-              src="assets/rectangle1773-ow9-200h.png"
-              class="fitness-tracker-dashboard-rectangle5"
-            /><span class="fitness-tracker-dashboard-text78 Body_2"
+            ><span class="fitness-tracker-dashboard-text78 Body_2"
               ><span>Hard Workouts</span></span
             ><span class="fitness-tracker-dashboard-text80 Body_7"
               ><span>High Impact</span></span

@@ -1,0 +1,6 @@
+<h1>Add Treadmill Hours</h1>
+<%= form_with(model: @treadmill, url: treadmills_path, local: true) do |form|%>
+  <%= form.label :value, "Enter Treadmill Hours:" %>
+  <%= form.number_field :value %>
+  <%= form.submit "Add Treadmill Hours" %>
+<% end %>

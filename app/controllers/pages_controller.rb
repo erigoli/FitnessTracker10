@@ -6,6 +6,10 @@ class PagesController < ApplicationController
     @total_calories_consumed = @user.total_calories_consumed
     @total_water_consumed = @user.total_water_consumed
     @total_steps_consumed = @user.total_steps_consumed
+    @total_cardios_consumed = @user.total_cardios_consumed
+    @total_stretchings_consumed = @user.total_stretchings_consumed
+    @total_treadmills_consumed = @user.total_treadmills_consumed
+    @total_strengths_consumed = @user.total_strengths_consumed
   end
 
   private

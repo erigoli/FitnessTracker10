@@ -1,0 +1,6 @@
+<h1>Add Strength Hours</h1>
+<%= form_with(model: @strength, url: strength_path, local: true) do |form|>
+  <%= form.label :value, "Enter Strength Hours:" %>
+  <%= form.number_field :value %>
+  <%= form.submit "Add Strength Hours" %>
+<% end %>

@@ -1,0 +1,6 @@
+<h1>Add Cardio</h1>
+<%= form_with(model: @cardio, url: cardios_path, local: true) do |form| %>
+  <%= form.label :value, "Enter Cardio Hours:" %>
+  <%= form.number_field :value %>
+  <%= form.submit "Add Cardio" %>
+<% end %>

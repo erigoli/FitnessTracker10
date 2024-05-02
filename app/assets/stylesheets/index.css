@@ -15,6 +15,7 @@
   align-items: flex-start;
   flex-shrink: 0;
   background-color: rgba(249, 249, 249, 1);
+  justify-content: flex-end; 
 }
 .fitness-tracker-dashboard-text {
   top: 41px;
@@ -47,11 +48,6 @@
   text-decoration: none;
 }
 .fitness-tracker-dashboard-rectangle5 {
-  top: 0px;
-  left: 1065px;
-  width: 375px;
-  height: 1000px;
-  position: absolute;
 }
 .fitness-tracker-dashboard-running {
   top: 248px;

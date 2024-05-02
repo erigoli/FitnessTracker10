@@ -15,9 +15,13 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  resources :cardios, only: [:new, :create]
   resources :steps, only: [:new, :create]
   resources :water_intakes, only: [:new, :create]
   resources :calories, only: [:new, :create]
+  resources :stretchings, only: [:new, :create]
+  resources :treadmills, only: [:new, :create]
+  resources :strengths, only: [:new, :create]
   get '/calories/new', to: 'calories#new', as: 'new_calorie'
   resources :users, only: [:new, :create, :edit, :update, :show, :destroy]
   get '/login', to: 'sessions#login'

@@ -1,0 +1,6 @@
+<h1>Add Stretching Hours</h1>
+<%= form_with(model: @stretching, url: stretchings_path, local: true) do |form| %>
+  <%= form.label :value, "Enter Stretching Hours:" %>
+  <%= form.number_field :value %>
+  <%= form.submit "Add Stretching Hours" %>
+<% end %>
