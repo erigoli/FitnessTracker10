@@ -136,7 +136,7 @@
               </div
               ></div
             ><span class="fitness-tracker-dashboard-text26 Heading_1"
-              ><span>0</span></span
+              ><span><%= @total_cardios_consumed + @total_stretchings_consumed + @total_treadmills_consumed + @total_strengths_consumed %></span></span
             ><span class="fitness-tracker-dashboard-text28 Body_3"
               ><span>Hours</span></span
             ></div
@@ -149,24 +149,30 @@
               alt="Rectangle392533"
               src="assets/rectangle392533-9tx-200h.png"
               class="fitness-tracker-dashboard-rectangle39"
-            /><div class="fitness-tracker-dashboard-frame14"
+            /><a href="/weights/new.html">
+            <div class="fitness-tracker-dashboard-frame14"
               ><span class="fitness-tracker-dashboard-text34"
-                ><span>0 lbs</span></span
+                ><span><%= @total_weights_consumed %>lbs</span></span
               ><span class="fitness-tracker-dashboard-text36"
-                ><span>Weight</span></span
-              ></div
-            ><div class="fitness-tracker-dashboard-frame15"
+                ><span> weight</span></span
+            ></a>
+            </div
+            ><a href="/heights/new.html">
+            <div class="fitness-tracker-dashboard-frame15"
               ><span class="fitness-tracker-dashboard-text38"
-                ><span>0’0”</span></span
+                ><span><%= @total_heights_consumed %>in</span></span
               ><span class="fitness-tracker-dashboard-text40"
-                ><span>Height</span></span
-              ></div
-            ><div class="fitness-tracker-dashboard-frame16"
+                ><span> height</span></span
+            ></a>
+            </div
+            ><a href="/ages/new.html">
+            <div class="fitness-tracker-dashboard-frame16"
               ><span class="fitness-tracker-dashboard-text42"
-                ><span>0yrs</span></span
+                ><span><%= @total_ages_consumed %>yrs</span></span
               ><span class="fitness-tracker-dashboard-text44"
-                ><span>Age</span></span
-              ></div
+                ><span> age</span></span
+            ></a>
+            </div
             ></div
           ><span class="fitness-tracker-dashboard-text46 Heading_4"
             ><span>Workouts for you</span></span

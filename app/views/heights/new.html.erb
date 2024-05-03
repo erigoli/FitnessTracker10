@@ -1,0 +1,6 @@
+<h1>Add Height</h1>
+<%= form_with(model: @height, url: heights_path, local: true) do |form| %>
+  <%= form.label :value, "Enter Your Height:" %>
+  <%= form.number_field :value %>
+  <%= form.submit "Submit Height" %>
+<% end %>

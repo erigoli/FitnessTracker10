@@ -10,6 +10,9 @@ class PagesController < ApplicationController
     @total_stretchings_consumed = @user.total_stretchings_consumed
     @total_treadmills_consumed = @user.total_treadmills_consumed
     @total_strengths_consumed = @user.total_strengths_consumed
+    @total_weights_consumed = @user.total_weights_consumed
+    @total_heights_consumed = @user.total_heights_consumed
+    @total_ages_consumed = @user.total_ages_consumed
   end
 
   private

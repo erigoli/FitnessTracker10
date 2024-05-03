@@ -10,7 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_05_02_185958) do
+ActiveRecord::Schema[7.1].define(version: 2024_05_02_234316) do
+  create_table "ages", force: :cascade do |t|
+    t.integer "value"
+    t.integer "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_ages_on_user_id"
+  end
+
   create_table "calories", force: :cascade do |t|
     t.integer "amount"
     t.integer "user_id", null: false
@@ -33,6 +41,14 @@ ActiveRecord::Schema[7.1].define(version: 2024_05_02_185958) do
     t.string "phone"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "heights", force: :cascade do |t|
+    t.integer "value"
+    t.integer "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_heights_on_user_id"
   end
 
   create_table "steps", force: :cascade do |t|
@@ -82,11 +98,22 @@ ActiveRecord::Schema[7.1].define(version: 2024_05_02_185958) do
     t.index ["user_id"], name: "index_water_intakes_on_user_id"
   end
 
+  create_table "weights", force: :cascade do |t|
+    t.integer "value"
+    t.integer "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_weights_on_user_id"
+  end
+
+  add_foreign_key "ages", "users"
   add_foreign_key "calories", "users"
   add_foreign_key "cardios", "users"
+  add_foreign_key "heights", "users"
   add_foreign_key "steps", "users"
   add_foreign_key "strengths", "users"
   add_foreign_key "stretchings", "users"
   add_foreign_key "treadmills", "users"
   add_foreign_key "water_intakes", "users"
+  add_foreign_key "weights", "users"
 end

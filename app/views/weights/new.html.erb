@@ -1,0 +1,6 @@
+<h1>Add Weight</h1>
+<%= form_with(model: @weight, url: weights_path, local: true) do |form| %>
+  <%= form.label :value, "Enter Your Weight:" %>
+  <%= form.number_field :value %>
+  <%= form.submit "Submit Weight" %>
+<% end %>
