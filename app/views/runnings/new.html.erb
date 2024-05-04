@@ -1,0 +1,6 @@
+<h1>Add Running Miles</h1>
+<%= form_with(model: @running, url: runnings_path, local: true) do |form| %>
+  <%= form.label :value, "Enter Your Miles:" %>
+  <%= form.number_field :value %>
+  <%= form.submit "Submit Miles" %>
+<% end %>

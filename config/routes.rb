@@ -25,6 +25,12 @@ Rails.application.routes.draw do
   resources :weights, only: [:new, :create]
   resources :heights, only: [:new, :create]
   resources :ages, only: [:new, :create]
+  resources :runnings, only: [:new, :create]
+  resources :runninggoals, only: [:new, :create]
+  resources :sleepings, only: [:new, :create]
+  resources :sleepinggoals, only: [:new, :create]
+  resources :weightlosses, only: [:new, :create]
+  resources :weightlossgoals, only: [:new, :create]
 
   get '/calories/new', to: 'calories#new', as: 'new_calorie'
   resources :users, only: [:new, :create, :edit, :update, :show, :destroy]

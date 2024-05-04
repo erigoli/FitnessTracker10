@@ -13,6 +13,12 @@ class PagesController < ApplicationController
     @total_weights_consumed = @user.total_weights_consumed
     @total_heights_consumed = @user.total_heights_consumed
     @total_ages_consumed = @user.total_ages_consumed
+    @total_sleepings_consumed = @user.total_sleepings_consumed
+    @total_sleepinggoals_consumed = @user.total_sleepinggoals_consumed
+    @total_runnings_consumed = @user.total_runnings_consumed
+    @total_runninggoals_consumed = @user.total_runninggoals_consumed
+    @total_weightlosses_consumed = @user.total_weightlosses_consumed
+    @total_weightlossgoals_consumed = @user.total_weightlossgoals_consumed
   end
 
   private

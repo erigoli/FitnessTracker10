@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_05_02_234316) do
+ActiveRecord::Schema[7.1].define(version: 2024_05_03_003443) do
   create_table "ages", force: :cascade do |t|
     t.integer "value"
     t.integer "user_id", null: false
@@ -49,6 +49,38 @@ ActiveRecord::Schema[7.1].define(version: 2024_05_02_234316) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_heights_on_user_id"
+  end
+
+  create_table "runninggoals", force: :cascade do |t|
+    t.integer "value"
+    t.integer "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_runninggoals_on_user_id"
+  end
+
+  create_table "runnings", force: :cascade do |t|
+    t.integer "value"
+    t.integer "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_runnings_on_user_id"
+  end
+
+  create_table "sleepinggoals", force: :cascade do |t|
+    t.integer "value"
+    t.integer "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_sleepinggoals_on_user_id"
+  end
+
+  create_table "sleepings", force: :cascade do |t|
+    t.integer "value"
+    t.integer "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_sleepings_on_user_id"
   end
 
   create_table "steps", force: :cascade do |t|
@@ -98,6 +130,22 @@ ActiveRecord::Schema[7.1].define(version: 2024_05_02_234316) do
     t.index ["user_id"], name: "index_water_intakes_on_user_id"
   end
 
+  create_table "weightlosses", force: :cascade do |t|
+    t.integer "value"
+    t.integer "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_weightlosses_on_user_id"
+  end
+
+  create_table "weightlossgoals", force: :cascade do |t|
+    t.integer "value"
+    t.integer "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_weightlossgoals_on_user_id"
+  end
+
   create_table "weights", force: :cascade do |t|
     t.integer "value"
     t.integer "user_id", null: false
@@ -110,10 +158,16 @@ ActiveRecord::Schema[7.1].define(version: 2024_05_02_234316) do
   add_foreign_key "calories", "users"
   add_foreign_key "cardios", "users"
   add_foreign_key "heights", "users"
+  add_foreign_key "runninggoals", "users"
+  add_foreign_key "runnings", "users"
+  add_foreign_key "sleepinggoals", "users"
+  add_foreign_key "sleepings", "users"
   add_foreign_key "steps", "users"
   add_foreign_key "strengths", "users"
   add_foreign_key "stretchings", "users"
   add_foreign_key "treadmills", "users"
   add_foreign_key "water_intakes", "users"
+  add_foreign_key "weightlosses", "users"
+  add_foreign_key "weightlossgoals", "users"
   add_foreign_key "weights", "users"
 end

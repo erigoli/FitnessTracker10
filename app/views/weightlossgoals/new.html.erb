@@ -1,0 +1,6 @@
+<h1>Add Weightloss GOAL</h1>
+<%= form_with(model: @weightlossgoal, url: weightlossgoals_path, local: true) do |form| %>
+  <%= form.label :value, "Enter Your Weightloss GOAL:" %>
+  <%= form.number_field :value %>
+  <%= form.submit "Submit lbs" %>
+<% end %>

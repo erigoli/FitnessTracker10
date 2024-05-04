@@ -1,0 +1,6 @@
+<h1>Add Sleeping Hours</h1>
+<%= form_with(model: @sleeping, url: sleepings_path, local: true) do |form| %>
+  <%= form.label :value, "Enter Your Sleeping Hours:" %>
+  <%= form.number_field :value %>
+  <%= form.submit "Submit Hours" %>
+<% end %>

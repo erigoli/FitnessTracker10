@@ -1,0 +1,6 @@
+<h1>Add Running Mile GOAL</h1>
+<%= form_with(model: @runninggoal, url: runninggoals_path, local: true) do |form| %>
+  <%= form.label :value, "Enter Your Mile Goals:" %>
+  <%= form.number_field :value %>
+  <%= form.submit "Submit Miles" %>
+<% end %>

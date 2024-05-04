@@ -1,5 +1,11 @@
 class User < ApplicationRecord
   has_secure_password
+  has_many :weightlossgoals
+  has_many :weightlosses
+  has_many :runnings
+  has_many :runninggoals
+  has_many :sleepings
+  has_many :sleepinggoals
   has_many :weights
   has_many :heights
   has_many :ages
@@ -42,5 +48,23 @@ class User < ApplicationRecord
   def total_ages_consumed
     last_age = ages.last
     last_age.present? ? last_age.value : nil
+  end
+  def total_weightlossgoals_consumed
+    weightlossgoals.sum(:value)
+  end
+  def total_weightlosses_consumed
+    weightlosses.sum(:value)
+  end
+  def total_runnings_consumed
+    runnings.sum(:value)
+  end
+  def total_runninggoals_consumed
+    runninggoals.sum(:value)
+  end
+  def total_sleepings_consumed
+    sleepings.sum(:value)
+  end
+  def total_sleepinggoals_consumed
+    sleepinggoals.sum(:value)
   end
 end
